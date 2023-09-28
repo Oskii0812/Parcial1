@@ -1,0 +1,114 @@
+
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+body{
+    background-image: linear-gradient(to right, gray, #89ac76);
+    color: white;
+}
+
+#contentenedor {
+    width: 90%;
+    margin: 5px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+img{
+    max-width: 70%;
+}
+
+#logo{
+    max-width: 30%;
+    float: left;   /*en proceso que se quite*/
+    padding: 5px;
+    line-height: 60px;
+}
+
+#cabezera{
+    height: 60px;
+    background: rgb(207, 206, 206);
+    width: 90%;
+    position: fixed;
+    border-radius: 50px;
+    
+}
+
+#Navegador{
+    float:right;
+    width: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    text-align: right;
+    line-height: 60px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(12, 104, 223);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(223, 3, 3);
+}
+
+#main{
+    clear: both;
+    margin-top: 20px;
+}
+
+h2,h3,h4{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+}
+
+p.segundo{
+    border: 1px rgb(63, 193, 253) solid;
+    border-radius: 100px 100px;
+    color: white;
+    margin: 5px 50px;
+}
+
+p.tercero{
+    border: 1px rgb(253, 87, 87) solid;
+    border-radius: 100px 100px;
+    color: white;
+    margin: 5px 50px;
+}
+
+p.primero{
+    border: 1px rgb(245, 127, 219) solid;
+    border-radius: 100px 100px;
+    color: white;
+    margin: 5px 50px;
+}
+
+.imagenes{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+#servicios{
+    margin-top: 20px;
+}
+
+.avatar{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 50px;
+}

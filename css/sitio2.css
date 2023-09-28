@@ -1,0 +1,42 @@
+/*
+            Selector universal.
+        */
+        *{
+            margin: 0px;
+            padding: 0px; 
+         }
+         /*
+             Etiqueta de comentario.
+         */
+         body{
+             background-color: rgb(173, 255, 152);
+             color: #000000;
+         }
+         /* Identificadores.*/
+         #contenedor{
+             width: 90%;
+             margin: 5px auto;
+             text-align: justify;/* Etiqueta para justificar texto.*/
+         }
+         #uno{
+            background-color: rgb(255, 177, 225);
+            color: rgb(0, 0, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            border: 5px rgb(0, 0, 0) solid;
+            border-top-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+         }
+         #dos{
+            margin-top: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(172, 185, 255);
+            font-size: 1.2em;/*  Tamaño de la letra. */
+            padding: 10px 40px;/*  Sangría. */
+            text-align: center; /* Alinear texto. */
+            border: 5px black outset; /*  dash inset solid */
+            border-radius: 10px 50px;
+         }
+         p.segundo{
+            color: black;
+         }

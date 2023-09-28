@@ -1,0 +1,203 @@
+/* Estilos específicos para la cabecera */
+.cabecera {
+    position: relative; /* Para que los elementos dentro de .cabecera estén posicionados con respecto a este contenedor */
+    text-align: center;
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../imagenes/092719_Billy_Eilish_Event_Image_1600x600-7a1d5390fc-copy-86ebbcc7b3.jpg');
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: white; /* Color de texto para los títulos */
+}
+
+.cabecera h1,
+.cabecera h2 {
+    position: relative; /* Coloca los títulos en posición relativa */
+}
+
+/* Estilos para el menú de navegación */
+.nave {
+    background: rgb(119, 118, 118);
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+    padding: 20px 0; /* Aumenta el espacio vertical para el menú */
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 0px auto;
+    width: 95%;
+    padding: 10px;
+}
+
+.nave ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nave li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nave li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px; /* Aumenta el espacio alrededor de los enlaces */
+    border-radius: 5px; /* Agrega bordes redondeados a los enlaces */
+}
+
+.nave li a:hover {
+    background-color: #882a2a; /* Cambia el color de fondo al pasar el cursor */
+    text-decoration: none;
+}
+
+.container{
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 0px auto;
+    width: 95%;
+    padding: 10px;
+}
+/*Tabla de procuctos*/
+.productos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 0px auto;
+    width: 95%;
+    padding: 10px;
+}
+
+.Table {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las "file" se envuelvan cuando no caben en la pantalla */
+    justify-content: center;
+}
+
+.file {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan cuando no caben en la fila */
+    gap: 10px;
+}
+
+.file div {
+    width: calc(25% - 10px); /* Esto distribuirá automáticamente las imágenes en 4 columnas */
+    margin-bottom: 10px;
+}
+
+.productos img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al ancho de su contenedor */
+}
+
+
+/* Estilos específicos para las imágenes dentro de .Pop */
+.Pop .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Pop img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.Pop p {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilos generales para .Pop */
+.Pop {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 0px auto;
+    width: 95%;
+    padding: 10px;
+}
+
+/* Para asegurarte de que estos estilos solo se apliquen a .Pop, puedes usar un selector más específico en tu HTML si es necesario, como un ID único o una clase adicional en el elemento que contiene .Pop. */
+/*titulo*/
+.title{
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 0px auto;
+    width: 95%;
+    padding: 10px;
+}
+.title h1 {
+    font-size: 30px;
+    color: #000000;
+    margin-top: 10px;
+    text-align: center;
+}
+.title p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+
+
+
+/* Estilos generales para el formulario */
+.formulario {
+    text-align: center;
+    padding: 20px;
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 0px auto;
+    width: 95%;
+    padding: 10px;
+}
+
+.contenedor {
+    background-color: #949494;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px auto; /* Centra el formulario horizontalmente */
+    max-width: 400px; /* Define el ancho máximo del formulario */
+    border: 1px rgb(0, 0, 0) solid;
+    margin: 0px auto;
+    width: 95%;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #575757;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
